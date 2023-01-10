@@ -1,7 +1,3 @@
-// Copyright 2022 The Flutter Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
 
@@ -46,7 +42,7 @@ class _MainMenuOverlayState extends State<MainMenuOverlay> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Text(
-                    'Doodle Dash',
+                    'Freddys Jump Up',
                     style: titleStyle.copyWith(
                       height: .8,
                     ),
@@ -55,7 +51,7 @@ class _MainMenuOverlayState extends State<MainMenuOverlay> {
                   const WhiteSpace(),
                   Align(
                     alignment: Alignment.center,
-                    child: Text('Select your character:',
+                    child: Text('Who do you wanna be:',
                         style: Theme.of(context).textTheme.headlineSmall!),
                   ),
                   if (!screenHeightIsSmall) const WhiteSpace(height: 30),

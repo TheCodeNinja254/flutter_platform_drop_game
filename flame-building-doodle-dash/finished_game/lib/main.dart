@@ -1,7 +1,3 @@
-// Copyright 2022 The Flutter Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -19,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Doodle Dash',
+      title: 'Freddys Jump Up',
       themeMode: ThemeMode.dark,
       theme: ThemeData(
         colorScheme: lightColorScheme,
@@ -30,7 +26,7 @@ class MyApp extends StatelessWidget {
         textTheme: GoogleFonts.audiowideTextTheme(ThemeData.dark().textTheme),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Doodle Dash'),
+      home: const MyHomePage(title: 'Freddys Jump Up'),
     );
   }
 }

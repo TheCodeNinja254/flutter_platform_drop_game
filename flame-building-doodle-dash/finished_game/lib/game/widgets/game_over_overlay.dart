@@ -1,7 +1,3 @@
-// Copyright 2022 The Flutter Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
 
@@ -26,7 +22,7 @@ class GameOverOverlay extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Text(
-                'Game Over',
+                'Game Over!',
                 style: Theme.of(context).textTheme.displayMedium!.copyWith(),
               ),
               const WhiteSpace(height: 50),
@@ -48,7 +44,7 @@ class GameOverOverlay extends StatelessWidget {
                   textStyle: MaterialStateProperty.all(
                       Theme.of(context).textTheme.titleLarge),
                 ),
-                child: const Text('Play Again'),
+                child: const Text('One More time?'),
               ),
             ],
           ),
